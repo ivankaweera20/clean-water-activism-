@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Ivanka's Activism Website</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+
+  <!-- Heading that appears on all pages -->
+  <body>
+    
+    <h1>Clean Water for All</h1>
+    
+  </body>
+
+  <!-- Nav bar -->
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="impact.html">Impact</a>
+      </li>
+      <li>
+        <a href="donate.html">Donate</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <main>
+
+    <!-- Heading about how to take action with two short-term and two long-term solutions -->
+    <h2>
+      How you can take action:
+    </h2>
+
+    <p class="action">
+      Short-term solutions: building wells and spreading awareness about why having access to clean water is so important.
+    </p>
+    
+    <p class="action">
+      Long-term solutions: investing in sustainable infrastructure and advocating for your community to prioritize making clean water available for everyone.
+    </p>
+
+    <!-- Brief introduction to two organizations that have space to donate on their website -->
+    <h3>
+      Here are two organizations that you can donate to:
+    </h3>
+    
+    <img class="donateImg" src="assets/charitywater.jpg" alt="Image of the Charity Water logo which is black with a yellow water can in the middle and the organization name under it">
+
+    <img class="donateImg" src="assets/waterforlife.png" alt="Image of the Water For Life logo which is a blue water droplet with the organization name to the right of it">
+
+  <div id="donateInfo">
+    <p id="donateInfo1">
+      Charity: Water is a non-profit organization whose mission is to provide all people with access to clean water, hygeine, and improved sanitation. Up to date, they have funded 189,000 projects and done work in 29 countries. They work with local partnerships and have a space on their website to make donations.
+    </p>
+
+    <p id="donateInfo2">
+      Water for Life charity is a non-profit organization whose mission is to improve health, educuation, and economic prosperity of families by providing solutions to access clean water. On their website you can sponser projects and donate.
+    </p>
+  </div>
+
+    <!-- Creating the sample template to reach out to an organization of your choice with a solution -->
+    <h3>
+      Got a good solution in mind? Fill out our sample template to get in contact with your organization of choice:
+    </h3>
+
+    <div class="sampleQuestions">
+      <div class="sampleItem">
+      <label for="yourOrganization"><strong>Your organization: </strong></label>
+      <input type="text" id="organization">
+    </div>
+
+    <div class="sampleItem">
+      <label for="yourName"><strong>Your name: </strong></label>
+      <input type="text" id="name">
+    </div>
+
+    <div class="sampleItem">
+      <label for="yourSolution"><strong>Your solution: </strong> </label>
+      <input type="text" id="solution">
+    </div>
+
+      <button id="sampleButton">Generate your sample text</button>
+    </div>
+
+    <br/>
+    <p id="sampleText">
+    </p>
+    <br/>
+    
+  </main>
+</html>

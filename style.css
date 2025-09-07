@@ -1,0 +1,209 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #a3f6dd;
+   text-align: center;
+}
+
+main {
+   text-align: center;
+}
+/* STYLE TEXT */
+
+h1 {
+  color: #1B504A;
+   font-family: garamond, serif;
+   margin-top: 1em;
+   margin-bottom: 1em;
+   font-size: 50px;
+}
+
+h2 {
+   color: #1B504A;
+   font-family: garamond, serif;
+   margin-top: 1em;
+   margin-bottom: .5em;
+   font-size: 40px;
+}
+
+h3 {
+   color: #1B504A;
+   font-family: garamond, serif;
+   margin-top: 1em;
+   margin-bottom: .5em;
+   font-size: 40px;
+}
+
+#intro {
+   color: #1b504a;
+   text-align: center;
+   font-family: garamond, serif;
+   font-size: 30px;
+   margin-top: 1em;
+   margin-left: 15%;
+   margin-right: 15%;
+   margin-bottom: 2em;
+}
+
+.action {
+   color: #1b504a;
+   font-size: 30px;
+   font-family: garamond, serif;
+   margin: 1em;
+}
+
+#donateInfo {
+   margin-bottom: 6em;
+}
+
+#donateInfo1 {
+   color: #1b504a;
+   font-size: 30px;
+   font-family: garamond, serif;
+   margin-top: 1em;
+   margin-left: 15%;
+   margin-right: 58%;
+   margin-bottom: 2em;
+}
+
+#donateInfo2 {
+   color: #1b504a;
+   font-size: 30px;
+   font-family: garamond, serif;
+   margin-top: -13em;
+   margin-left: 58%;
+   margin-right: 15%;
+   margin-bottom: 2em;
+}
+
+#impactInfo {
+   color: #1b504a;
+   font-size: 30px;
+   font-family: garamond, serif;
+   margin: 1em;
+   text-align: center;
+}
+
+.impactReason {
+   color: #1b504a;
+   font-size: 30px;
+   font-family: garamond, serif;
+   text-align: center;
+   display: block;
+   margin-bottom: 1em;
+}
+
+/* STYLE IMAGES */
+
+img {
+   min-height: 300px;
+   min-width: 450px;
+   max-height: 300px;
+   max-width: 450px;
+   border: 10px, solid, #abc96f;
+   margin: 1em;
+}
+
+.donateImg {
+   min-height: 450px;
+   min-width: 400px;
+   max-height: 450px;
+   max-width: 400px;
+   border: 10px, solid, #abc96f;
+   margin-left: 120px;
+   margin-right: 120px;
+}
+/* STYLE NAV BAR */
+
+nav {
+   background-color: #abc96f;
+   padding: 10px;
+}
+
+li {
+   display: inline;
+   font-family: garamond, serif;
+   font-size: 30px;
+}
+
+a {
+   color: #1b504a;
+   text-decoration: none;
+   margin-left: 30px;
+   margin-right: 30px;
+   padding: 10px;
+}
+
+li a:hover {
+   background-color: white;
+}
+/* PAGE LINKS */
+
+#indexLink {
+   margin: 5px;
+   padding: 0;
+   display: inline-block;
+   color: #1b504a;
+   text-decoration: underline;
+   font-family: garamond, serif;
+}
+
+.impactLink {
+   margin: 5px;
+   padding: 0;
+   display: inline-block;
+   color: #1b504a;
+   text-decoration: underline;
+   font-family: garamond, serif;
+}
+
+.preLink {
+   color: #1b504a;
+   font-family: garamond, serif;
+}
+
+/* DONATE PAGE SAMPLE TEXT */
+
+.sampleQuestions {
+   background: #abc96f;
+   border-radius: 10px;
+   border-style: solid;
+   border-color: #1b504a;
+   padding: 20px;
+   margin-top: 1em;
+   margin-bottom: 1em;
+   margin-left: 20%;
+   margin-right: 20%;
+   text-align: center;
+}
+
+.sampleItem {
+   color: #1b504a;
+   text-align: center;
+   margin: 20px;
+   font-family: garamond, serif;
+   font-size: 20px;
+}
+
+#sampleButton {
+   background: #1b504a;
+   color: white;
+   padding: 10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+#sampleText {
+   color: #1b504a;
+   font-size: 30px;
+   font-family: garamond, serif;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   margin-left: 20%;
+   margin-right: 20%;
+   text-align: center;
+}
